@@ -166,32 +166,39 @@ public class MainActivity extends AppCompatActivity {
         questions = new ArrayList<>();
 
 
-        Question question0 = new Question(R.drawable.img_quote_0, "Pretty good advice, and perhaps a scientist did say it... Who actually did?", "Albert Einstein", "Issac Newton", "Rita Mae Brown", "Rosalind Franklin", 2);
+        Question question0 = new Question(R.drawable.img_quote_0, "Адамзат тарихы дамуының ең алғашқы кезеңі", "Қола дәуірі", "Темір дәуірі", "Тас дәуірі", "Андронов кезеңі", 2);
 
 
-        Question question1 = new Question(R.drawable.img_quote_1, "Was honest Abe honestly quoted? Who authored this pithy bit of wisdom?", "Edward Stieglitz", "Maya Angelou", "Abraham Lincoln", "Ralph Waldo Emerson", 0);
+        Question question1 = new Question(R.drawable.img_quote_1, "Алғашқы адамдардың бастапқы кезеңдегі топтасу жүйесі", "Тобыр", "Рулық", "Тайпалық", "Қауымдастық", 0);
 
 
-        Question question2 = new Question(R.drawable.img_quote_2, "Easy advice to read, difficult advice to follow — who actually said it?", "Martin Luther King Jr.", "Mother Teresa", "Fred Rogers", "Oprah Winfrey", 1);
+        Question question2 = new Question(R.drawable.img_quote_2, "Алағашқы адамдардың тобырдан кейінгі топтасу жүйесі", "Тайпалық", "Рулық", "Өндірістік ұжым", "Малшылар қауымдастығы", 1);
 
-        Question question3 = new Question(R.drawable.img_quote_3, "Insanely inspiring, insanely incorrect (maybe). Who is the true source of this inspiration?", "Nelson Mandela", "Harriet Tubman", "Mahatma Gandhi", "Nicholas Klein", 3);
+        Question question3 = new Question(R.drawable.img_quote_3, "Алғашқы адамдардың рулық қауымнан кейінгі қалыптасу жүйесі", "аталық ру", "аналық ру", "терімшілер", "тайпа", 3);
 
-        Question question4 = new Question(R.drawable.img_quote_4, "A peace worth striving for — who actually reminded us of this?", "Malala Yousafzai", "Martin Luther King Jr.", "Liu Xiaobo", "Dalai Lama", 1);
-        Question question5 = new Question(R.drawable.img_quote_5, "Unfortunately, true — but did Marilyn Monroe convey it or did someone else?", "Laurel Thatcher Ulrich", "Eleanor Roosevelt", "Marilyn Monroe", "Queen Victoria", 0);
+        Question question4 = new Question(R.drawable.img_quote_4, "Қоғамда алғашқы ірі еңбек бөлінісін туғызған жағдай", "терімшіліктің дамуы", "шаруашылықтың егіншілік пен мал шаруашылығы болып бөлінуі", "аңшылықтың тууы", "тобырдың қалыптасуы.", 1);
 
-        Question question6  = new Question(R.drawable.img_quote_6, "Here’s the truth, Will Smith \u200Bdid say this, but in which movie?", "Independence Day", "Bad Boys", "The men in black", "The pursuit of Happiness", 2);
+        Question question5 = new Question(R.drawable.img_quote_5, "Ғалымдардың ең ежелгі адамды атауы:", "епті адам", "кроманьон", "неандерталь", "синантроп", 0);
 
-        Question question7 = new Question(R.drawable.img_quote_7, "Which TV funny gal actually quipped this 1-liner?", "Ellen Degeneres", "Amy Poehler", "Betty White", "Tina Fay", 3);
+        Question question6  = new Question(R.drawable.img_quote_6, "Ең ежелгі \"епті адамның\"  мөлшермен өмір сүрген мерзімі.", "500-200 мың жыл бұрын", "1 млн жыл бұрын", "1 млн. 750 мың жыл бұрын", "100-35 мың жыл бұрын", 2);
 
-        Question question8 = new Question(R.drawable.img_quote_8, "This mayor won’t get my vote — but did he actually give this piece of advice? And if not, who did?", "Forrest Gump, \n Forrest Gump", "Dorry, Finding Nemo", "Esther Williams", "The mayor, Jaws", 1);
+        Question question7 = new Question(R.drawable.img_quote_7, "Ең ежелгі адамның еңбек құралы", "Найза", "Бумеранг", "Садақ", "Үшкір тас", 3);
 
-        Question question9 = new Question(R.drawable.img_quote_9, "Her heart will go on, but whose heart is it?", "Whitney Houston", "Diana Ross", "Celine Dion", "Mariah Carey", 0);
+        Question question8 = new Question(R.drawable.img_quote_8, "Ежелгі \"Тік жүретін адам\" өкілі", "\"Епті адам\"", "Синантроп", "Неандертальдық", "\"Саналы адам\"", 1);
 
-        Question question10 = new Question(R.drawable.img_quote_10, "He’s the king of something alright — to whom does this self-titling line belong to?", "Tony Montana" + "Scarface", "Joker, The Dark" + "Knight", "Lex Luthor" + "Batman v Superman", "Jack, Titanic", 3);
+        Question question9 = new Question(R.drawable.img_quote_9, "Жер бетінде бұдан 100-35 мың жыл бұрын өмір сүрді:", "Неандертальдықтар", "\"Епті адамдар\"", "\"Саналы адамдар\"", "Синантроптар", 0);
 
-        Question question11 = new Question(R.drawable.img_quote_11, "Is “Grey” synonymous for “wise”? If so, maybe Gandalf did preach this advice. If not, who did?", "Yoda, star wars", "Gandalf The Grey" + "Lord of the Rings", "Dumbledore, Harry Potter", "Uncle Ben, Spiderman", 0);
+        Question question10 = new Question(R.drawable.img_quote_10, "Жер бетінде 40-35мың жыл бұрын өмір сүрген адам:", "Питекантроп", "\"Епті адам\"", "\"Тік жүретін адам\"", "\"Саналы адам\"", 3);
 
-        Question question12 = new Question(R.drawable.img_quote_12, "Houston, we have a problem with this quote — which space-traveler does this catch-phrase actually belong to?", "Han solo, star wars", "Captain Kirk, Star trek", "Buzz Lightyear, Toy story", "Jim Lovell, Apollo 13", 2);
+        Question question11 = new Question(R.drawable.img_quote_11, "Ежелгі адамдардың ең алғашқы кәсібі", "Терімшілік", "Егіншілік", "Аң аулау мен балық аулап күнелту", "Мал шаруашылығы", 0);
+
+        Question question12 = new Question(R.drawable.img_quote_12, "Тас дәуірін (палеолит) қамтитын кезең", "б.з.д. 100-75 ғасырлар", "б.з.д.5-3 мың жыл бұрын", "б.з.д. 2 млн 500 мың-12 мың жыл", "б.з.д. 12-5 мың жыл", 2);
+
+        Question question13 = new Question(R.drawable.img_quote_0, "Орта тас ғасыры қамтитын кезең", " б.з.б. 5-3 мың жыл бұрын", "б.з.д.7-5 мың жыл", "б.з.б.12-5 мың жыл", "б.з.б.1 млн. 750 мың жыл бұрын", 2);
+
+        Question question14 = new Question(R.drawable.img_quote_1, "Жаңа тас ғасыры қамтитын кезең", "б.з.б.5-3 мың жыл", "б.з.д. 3-2 мың жыл", " б.з.д.7-5 мың жыл", "б.з.д.12-5 мың жыл", 0);
+
+
         questions.add(question0);
         questions.add(question1);
         questions.add(question2);
@@ -205,11 +212,14 @@ public class MainActivity extends AppCompatActivity {
         questions.add(question10);
         questions.add(question11);
         questions.add(question12);
+        questions.add(question13);
+        questions.add(question14);
+
 
         totalCorrect = 0;
         totalQuestions = questions.size();
 
-        while(questions.size() > 13) {
+        while(questions.size() > 15) {
             int randomIndex =  generateRandomNumber(questions.size());
             questions.remove(randomIndex);
         }
